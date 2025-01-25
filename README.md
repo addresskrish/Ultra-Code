@@ -2,6 +2,8 @@
 
 UltraCode is a simple yet powerful live code editor for web development. This tool allows users to write and test their HTML and CSS code in real-time. Its clean design and responsive layout ensure an intuitive and user-friendly experience for developers of all levels.
 
+![image](https://github.com/addresskrish/Ultra-Code/blob/main/Ultracode.png)
+
 ## Features
 
 - **Live Preview**: Automatically updates the output as you type.
