@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 127, 80, 0.574);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+  background-color: rgba(255, 127, 80, 0.574);
+  padding: 20px;
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navi {
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.navi img {
+  border-radius: 4px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.ic {
+  font-weight: bolder;
+  /* border-left: 3px solid black; */
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  background-color: rgba(255, 244, 127, 0.558);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.input-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-section div {
+  flex-basis: 32%;
+  background: #1d1e22;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.input-section div h3 {
+  border-bottom: 3px solid white;
+  padding: 10px;
+  font-size: 16px;
+  background: #060606;
+  margin: 0;
+}
+
+.input-section div textarea {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  background: #1d1e22;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.output-section {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.output-field {
+  flex-basis: 32%;
+  background: #1d1e22;
+  border: 3px solid black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.output-field h3 {
+  border: 3px solid black;
+  padding: 10px;
+  font-size: 16px;
+  background: white;
+  color: black;
+  margin: 0;
+}
+
+.iframe-container {
+  border: 3px solid black;
+  width: 100%;
+  background: white;
+  height: 300px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+footer {
+  border-top: 3px solid black;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: rgba(255, 127, 80, 0.574);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .input-section div {
+    flex-basis: 48%;
+  }
+
+  .output-field {
+    flex-basis: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ic {
+    border-left: none;
+    padding: 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-section div {
+    flex-basis: 100%;
+  }
+
+  .output-field {
+    flex-basis: 100%;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 10px;
+  }
+
+  .navi img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ic {
+    gap: 5px;
+  }
+
+  .input-section div textarea {
+    height: 150px;
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
