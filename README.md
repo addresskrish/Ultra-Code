@@ -23,12 +23,12 @@ UltraCode is a simple yet powerful live code editor for web development. This to
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/UltraCode.git
+   git clone https://github.com/your-username/Ultra-Code.git
 
 2. Navigate to the project folder
    
    ```bash
-   cd UltraCode
+   cd Ultra-Code
 ### Notes
 - Replace `https://github.com/your-username/UltraCode.git` with the actual URL of your GitHub repository.
 - Update the demo link and preview image if applicable.
